@@ -14,8 +14,8 @@ import MainPage from "./MainPage";
 export const Routing = () => {
     return (
         <Routes>
-            <Route path="/" element={<MainPage/>} />
-            <Route path="/login" element={<Auth/>} />
+            <Route path="/main_page" element={<MainPage/>} />
+            <Route path="/" element={<Auth/>} />
             <Route path="/registration" element={<Registration/>} />
             {/*<Navigate to="/" />*/}
         </Routes>

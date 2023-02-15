@@ -1,10 +1,10 @@
 import React from 'react';
 import {LockClosedIcon} from "@heroicons/react/20/solid";
-import {NavLink} from "react-router-dom";
 
-const Button = (props: {title: string, link: string, type: "button" | "submit" | "reset" | undefined}) => {
+const Button = (props: {title: string, link?: string, type: "button" | "submit" | "reset" | undefined}) => {
     return (
-        <NavLink to={props.link}>
+        // <NavLink to={props.link}>
+        <div className='mt-7'>
             <button
                 type={props.type}
                 className="group relative flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
@@ -14,8 +14,8 @@ const Button = (props: {title: string, link: string, type: "button" | "submit" |
             </span>
                 {props.title}
             </button>
-        </NavLink>
-
+        </div>
+        // </NavLink>
     );
 };
 
