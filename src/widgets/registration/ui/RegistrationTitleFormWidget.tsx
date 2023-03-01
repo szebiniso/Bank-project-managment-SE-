@@ -11,14 +11,14 @@ const RegistrationTitleFormWidget = () => {
                     </h2>
                 </div>
                 <RegistrationForm/>
-                <div className="mt-10 flex items-center justify-center gap-1">
-                    <p>Уже есть аккаунт? </p>
-                    <div className="text-sm">
-                        <a href="/" className="font-medium text-indigo-600 hover:text-indigo-500">
-                            Войти
-                        </a>
-                    </div>
-                </div>
+                {/*<div className="mt-10 flex items-center justify-center gap-1">*/}
+                {/*    <p>Уже есть аккаунт? </p>*/}
+                {/*    <div className="text-sm">*/}
+                {/*        <a href="/" className="font-medium text-indigo-600 hover:text-indigo-500">*/}
+                {/*            Войти*/}
+                {/*        </a>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
         </div>
     );

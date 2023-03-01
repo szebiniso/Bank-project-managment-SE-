@@ -12,13 +12,15 @@
 
 import { withProviders } from "./providers";
 import Registration from "../pages/Registration";
-import {Routing} from "../pages";
+import { Routing } from "../pages";
+import Dashboard from "../Board/Home/Dashboard";
 
 const App = () => {
-    return (
-        <Routing/>
-      // <Registration/>
+  return (
+    // <Dashboard />
+    <Routing />
+    // <Registration/>
   );
-}
+};
 
 export default withProviders(App);

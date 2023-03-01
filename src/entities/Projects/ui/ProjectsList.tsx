@@ -1,27 +1,22 @@
-import React from 'react';
-import ProjectCard from "../../../shared/ui/ProjectCard";
-import SearchForm from "../../../features/searchFrom/ui/SearchForm";
+import React from "react";
 
 const ProjectsList = () => {
-    return (
-        <div className='w-full h-screen bg-[#202938] flex flex-col basis-1/3 p-6'>
-            <p className='text-3xl text-gray-100 mb-6 font-semibold'>Проекты</p>
-            <SearchForm/>
-            <ul className='w-full flex flex-col gap-1 overflow-auto'>
-                <li><ProjectCard title='Первый проект' description='Какое-то описание для первого проекта'/></li>
-                <li><ProjectCard title='Второй проект' description='Какое-то описание для второго проекта'/></li>
-                <li><ProjectCard title='Второй проект' description='Какое-то описание для второго проекта'/></li>
-                <li><ProjectCard title='Второй проект' description='Какое-то описание для второго проекта'/></li>
-                <li><ProjectCard title='Второй проект' description='Какое-то описание для второго проекта'/></li>
-                <li><ProjectCard title='Второй проект' description='Какое-то описание для второго проекта'/></li>
-                <li><ProjectCard title='Второй проект' description='Какое-то описание для второго проекта'/></li>
-                <li><ProjectCard title='Второй проект' description='Какое-то описание для второго проекта'/></li>
-                <li><ProjectCard title='Второй проект' description='Какое-то описание для второго проекта'/></li>
-                <li><ProjectCard title='Второй проект' description='Какое-то описание для второго проекта'/></li>
-                <li><ProjectCard title='Второй проект' description='Какое-то описание для второго проекта'/></li>
-            </ul>
-        </div>
-    );
+  return (
+    <div className="flex justify-center w-full">
+      <div className="mb-3 xl:w-30 w-full">
+        <select
+          id="small"
+          className="block w-full p-2 pl-2 mb-6 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        >
+          <option selected>Выберите проект</option>
+          <option value="US">United States</option>
+          <option value="CA">Canada</option>
+          <option value="FR">France</option>
+          <option value="DE">Germany</option>
+        </select>
+      </div>
+    </div>
+  );
 };
 
 export default ProjectsList;

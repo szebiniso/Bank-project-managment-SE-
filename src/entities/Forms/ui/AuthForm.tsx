@@ -30,10 +30,24 @@ const AuthForm = () => {
     return (
         <form onSubmit={formik.handleSubmit} action="my-app/src/entities/Forms/ui#" method="POST">
             <div className="flex flex-col bg-white px-4 py-5 sm:p-6">
-                <Input error={formik.errors.email} touched={formik.touched.email} onChange={formik.handleChange} name='email' label="Почта" placeholder="Почта" type='email' autoComplete='email'>
+                <Input error={formik.errors.email}
+                       touched={formik.touched.email}
+                       onChange={formik.handleChange}
+                       name='email'
+                       label="Почта"
+                       placeholder="Почта"
+                       type='email'
+                       autoComplete='email'>
                     <AtSymbolIcon className="h-5 h-5 text-gray-400" />
                 </Input>
-                <Input error={formik.errors.password} touched={formik.touched.password} onChange={formik.handleChange} name='password' label="Пароль" placeholder="Пароль" type='password' autoComplete='current-password'>
+                <Input error={formik.errors.password}
+                       touched={formik.touched.password}
+                       onChange={formik.handleChange}
+                       name='password'
+                       label="Пароль"
+                       placeholder="Пароль"
+                       type='password'
+                       autoComplete='current-password'>
                     <KeyIcon className="h-5 h-5 text-gray-400" />
                 </Input>
                 <ForgetPassword/>
