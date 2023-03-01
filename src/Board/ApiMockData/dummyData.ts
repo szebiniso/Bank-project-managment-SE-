@@ -3,7 +3,7 @@ import { IBoard } from "../Interfaces/Kanban";
 export const ApiMockResponse: IBoard[] = [
   {
     id: 1651319512266.7095,
-    title: "Discover",
+    title: "Todo",
     cards: [
       {
         id: 1651319552926.0933,
@@ -26,21 +26,21 @@ export const ApiMockResponse: IBoard[] = [
       },
     ],
   },
-  {
-    id: 1651319523126.113,
-    title: "Doing",
-    cards: [
-      {
-        id: 1651319672685.5078,
-        title: "Task3",
-        labels: [{ color: "#9975bd", text: "Database" }],
-        date: "",
-        tasks: [
-          { id: 1651319728301.3855, completed: false, text: "restore db" },
-        ],
-      },
-    ],
-  },
+  // {
+  //   id: 1651319523126.113,
+  //   title: "Doing",
+  //   cards: [
+  //     {
+  //       id: 1651319672685.5078,
+  //       title: "Task3",
+  //       labels: [{ color: "#9975bd", text: "Database" }],
+  //       date: "",
+  //       tasks: [
+  //         { id: 1651319728301.3855, completed: false, text: "restore db" },
+  //       ],
+  //     },
+  //   ],
+  // },
   // {
   //   id: 1651319530017.122,
   //   title: "In-Review",
@@ -54,20 +54,20 @@ export const ApiMockResponse: IBoard[] = [
   //     },
   //   ],
   // },
-  {
-    id: 1651319535931.4182,
-    title: "Completed",
-    cards: [
-      {
-        id: 1651319680948.0479,
-        title: "Task5",
-        labels: [{ color: "#4fcc25", text: "Payment API" }],
-        date: "2022-05-04",
-        tasks: [
-          { id: 1651319820180.9648, completed: false, text: "GraphQl" },
-          { id: 1651319833779.3252, completed: true, text: "Restful API" },
-        ],
-      },
-    ],
-  },
+  // {
+  //   id: 1651319535931.4182,
+  //   title: "Completed",
+  //   cards: [
+  //     {
+  //       id: 1651319680948.0479,
+  //       title: "Task5",
+  //       labels: [{ color: "#4fcc25", text: "Payment API" }],
+  //       date: "2022-05-04",
+  //       tasks: [
+  //         { id: 1651319820180.9648, completed: false, text: "GraphQl" },
+  //         { id: 1651319833779.3252, completed: true, text: "Restful API" },
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
