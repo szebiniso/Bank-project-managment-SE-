@@ -41,19 +41,19 @@ export const ApiMockResponse: IBoard[] = [
       },
     ],
   },
-  {
-    id: 1651319530017.122,
-    title: "In-Review",
-    cards: [
-      {
-        id: 1651319677070.0732,
-        title: "Task4",
-        labels: [{ color: "#8da377", text: "figma" }],
-        date: "2022-05-06",
-        tasks: [],
-      },
-    ],
-  },
+  // {
+  //   id: 1651319530017.122,
+  //   title: "In-Review",
+  //   cards: [
+  //     {
+  //       id: 1651319677070.0732,
+  //       title: "Task4",
+  //       labels: [{ color: "#8da377", text: "figma" }],
+  //       date: "2022-05-06",
+  //       tasks: [],
+  //     },
+  //   ],
+  // },
   {
     id: 1651319535931.4182,
     title: "Completed",
